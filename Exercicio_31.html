@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa que exiba os números de 1 a 10</title>
+</head>
+<body>
+    <h1>Programa que exiba os números de 1 a 10</h1>
+
+    <script>
+
+let n = parseInt(prompt("Digite um número de 1 a 10: ")); 
+        function exibirNumeros (n) {
+            if (n > 10) return;
+            console.log(n);
+            exibirNumeros(n + 1);
+        }
+
+        exibirNumeros(1); 
+    </script>
+</body>
+</html>
